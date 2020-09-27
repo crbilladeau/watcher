@@ -1,27 +1,26 @@
-import React from 'react';
-import requests from '../requests';
-import Nav from './Nav';
-import HeroBanner from './HeroBanner';
-import Row from './Row';
+import React, { useContext } from 'react';
+import Banner from './Banner';
+import Row from './PosterRow';
+import Spinner from '../utils/Spinner';
+
+import { GlobalContext } from '../context/GlobalState';
 
 const Dashboard = () => {
-  return (
-    <div>
-      <Nav />
-      <HeroBanner />
-      <Row
-        title='NETFLIX ORIGINALS'
-        fetchUrl={requests.fetchNetflixOriginals}
-        isLargeRow
-      />
-      <Row title='Trending Now' fetchUrl={requests.fetchTrending} />
-      <Row title='Top Rated' fetchUrl={requests.fetchTopRated} />
-      <Row title='Action Movies' fetchUrl={requests.fetchActionMovies} />
-      <Row title='Comedy Movies' fetchUrl={requests.fetchComedyMovies} />
-      <Row title='Horror Movies' fetchUrl={requests.fetchHorrorMovies} />
-      <Row title='Romance Movies' fetchUrl={requests.fetchRomanceMovies} />
-      <Row title='Animation' fetchUrl={requests.fetchAnimation} />
-    </div>
+  const { shows, movies, loading, showLoading } = useContext(GlobalContext);
+
+  return loading ? (
+    <Spinner />
+  ) : (
+    <>
+      <Banner shows={shows.trending} />
+      <Row title='Trending Now' shows={shows.trending} />
+      <Row title='Top Rated' shows={shows.toprated} />
+      <Row title='Action Movies' shows={movies.actionMovies} />
+      <Row title='Animation' shows={movies.animationMovies} />
+      <Row title='Comedy Movies' shows={movies.comedyMovies} />
+      <Row title='Horror Movies' shows={movies.horrorMovies} />
+      <Row title='Romance Movies' shows={movies.romanceMovies} />
+    </>
   );
 };
 
