@@ -176,7 +176,7 @@ export const GlobalProvider = ({ children }) => {
       const response = await axios.get(
         `${baseURL}/movie/${movie_id}?api_key=${API_KEY}&language=en-US`
       );
-      console.log(response);
+      // console.log(response);
       dispatch({
         type: 'GET_SHOWINFO',
         payload: response,
@@ -253,6 +253,7 @@ export const GlobalProvider = ({ children }) => {
       const response = await axios.get(
         `${baseURL}/search/movie?api_key=${API_KEY}&language=en-US&query=${query}`
       );
+      // response.data.results.media_type = 'movie';
       if (response.data.results.length < 1) {
         return;
       }
@@ -274,6 +275,7 @@ export const GlobalProvider = ({ children }) => {
       const response = await axios.get(
         `${baseURL}/search/tv?api_key=${API_KEY}&language=en-US&query=${query}`
       );
+      // response.data.results.media_type = 'tv';
       if (response.data.results.length < 1) {
         return;
       }
@@ -281,7 +283,7 @@ export const GlobalProvider = ({ children }) => {
         type: 'GET_SEARCHEDSHOW',
         payload: response,
       });
-      console.log(response);
+      // console.log(response);
     } catch (err) {
       dispatch({
         type: 'FETCH_ERROR',
