@@ -10,7 +10,7 @@ export const NavStyles = styled.div`
   padding: 1rem 2rem;
   z-index: 3;
   transition-timing-function: ease-in;
-  transition: all 0.5s;
+  transition: all 0.4s;
   h1 {
     color: #fff;
     text-shadow: 4px 2px 0px rgba(93, 0, 211, 1);
