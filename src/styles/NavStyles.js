@@ -23,6 +23,6 @@ export const Logo = styled.img`
 `;
 
 export const Avatar = styled.img`
-  width: 30px;
+  width: 32px;
   object-fit: contain;
 `;
