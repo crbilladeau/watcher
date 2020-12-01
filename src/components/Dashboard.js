@@ -6,7 +6,7 @@ import Spinner from '../utils/Spinner';
 import { GlobalContext } from '../context/GlobalState';
 
 const Dashboard = () => {
-  const { shows, movies, loading, showLoading } = useContext(GlobalContext);
+  const { shows, movies, loading } = useContext(GlobalContext);
 
   return loading ? (
     <Spinner />
