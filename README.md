@@ -13,8 +13,8 @@
     <br />
      <img src="https://github.com/crbilladeau/portfolio/blob/master/src/assets/images/watcher.png?raw=true" alt="Watcher Screenshot" width="1000">
     <br />
-    <h2><a href="https://watcher-6ad27.web.app/">View Demo</a></h2>
   </p>
+  <h2><a href="https://watcher-6ad27.web.app/">View Demo</a></h2>
 </p>
 
 
