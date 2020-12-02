@@ -51,9 +51,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://github.com/crbilladeau/portfolio/blob/master/src/assets/images/watcher-mobile1.png?raw=true" alt="Watcher Screenshot" width="400">
-<img src="https://github.com/crbilladeau/portfolio/blob/master/src/assets/images/watcher-mobile1.png?raw=true" alt="Watcher Screenshot" width="400">
-
+<table>
+  <tr>
+    <td valign="top"><img src="https://github.com/crbilladeau/portfolio/blob/master/src/assets/images/watcher-mobile1.png?raw=true" alt="Watcher Screenshot" width="400"></td>
+    <td valign="top"><img src="https://github.com/crbilladeau/portfolio/blob/master/src/assets/images/watcher-mobile1.png?raw=true" alt="Watcher Screenshot" width="400"></td>
+  </tr>
+</table>
 
 Watcher is a fake movie and TV show streaming app created with **React** and deployed to **Firebase**. It utilizes data fetched with the **axios** library from **The Movie Database API**. It is fully searchable and navigatable using **React Router** and custom React Hooks. The project also makes use of React Context, storing the state in Global Context and managed by a reducer for top-down state management accessible within any component of the app.
 
