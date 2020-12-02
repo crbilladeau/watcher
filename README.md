@@ -11,7 +11,7 @@
     A simple mock-up for a streaming service made with ReactJS, React Router, and the TMDB (the Movie Database) API. Deployed to Google Firebase.
     <br />
     <br />
-     <img src="https://github.com/crbilladeau/portfolio/blob/master/src/assets/images/watcher.png?raw=true" alt="Watcher Screenshot" width="500">
+     <img src="https://github.com/crbilladeau/portfolio/blob/master/src/assets/images/watcher.png?raw=true" alt="Watcher Screenshot" width="1000">
     <br />
     <a href="https://watcher-6ad27.web.app/">View Demo</a>
   </p>
