@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://github.com/crbilladeau/portfolio/blob/master/src/assets/images/watcher-mobile1.png?raw=true" alt="Watcher Screenshot" width="800">
+<img align="center" src="https://github.com/crbilladeau/portfolio/blob/master/src/assets/images/watcher-mobile1.png?raw=true" alt="Watcher Screenshot" width="400">
 
 
 
