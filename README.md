@@ -51,13 +51,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Watcher is a fake movie and TV show streaming app created with **React** and deployed to **Firebase**. It utilizes data fetched with the **axios** library from **The Movie Database API**. It is fully searchable and navigatable using **React Router** and custom React Hooks. The project also makes use of React Context, storing the state in Global Context and managed by a reducer for top-down state management accessible within any component of the app.
 
 ABOUT
 
 ### In Development
 
 * Adding O.Auth Sign-In
+* Drop-down search list feature
 
 ### Built With
 
