@@ -42,6 +42,9 @@ export const ShowHeader = styled.header`
     );
     padding: 2rem;
     max-width: 800px;
+    @media screen and (max-width: 768px) {
+      margin: 2rem;
+    }
   }
 
   .seasons-episodes {
@@ -64,6 +67,9 @@ export const ShowHeader = styled.header`
       font-weight: 400;
     }
   }
+  @media screen and (max-width: 768px) {
+      height: 100vh;
+    }
 `;
 
 export const ShowOptions = styled.div`

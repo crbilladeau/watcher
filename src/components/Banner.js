@@ -1,7 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Banner, BannerHeader } from '../styles/BannerStyles';
-import Spinner from '../utils/Spinner';
 
 import { GlobalContext } from '../context/GlobalState';
 
@@ -13,7 +12,7 @@ const HeroBanner = ({ shows }) => {
     setBanner(shows[randomShow]);
   }, [shows]);
 
-  const { getShowInfo, showLoading } = useContext(GlobalContext);
+  const { getShowInfo } = useContext(GlobalContext);
 
   const onPosterClick = (showId, media_type) => {
     getShowInfo(showId, media_type);

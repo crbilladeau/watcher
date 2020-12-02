@@ -26,4 +26,13 @@ export const SearchBarStyles = styled.input`
     color: whitesmoke;
     text-shadow: 1px 1px 2px #333;
   }
+  @media screen and (max-width: 768px) {
+    margin: 0.5em 0 0 0;
+    text-align: center;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 1.3em;
+    padding: 0.5rem;
+
+  }
 `;

@@ -17,7 +17,7 @@ const SearchBar = ({ history }) => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    console.log(searchedShow);
+    // console.log(searchedShow);
     let showId = searchedShow[0].id;
     // console.log(showId);
 
@@ -39,7 +39,7 @@ const SearchBar = ({ history }) => {
     <form onSubmit={onSubmit}>
       <SearchBarStyles
         type='text'
-        placeholder='Search shows'
+        placeholder='Search shows...'
         value={search}
         onChange={(e) => onChange(e.target.value)}
       />

@@ -125,7 +125,7 @@ export const GlobalProvider = ({ children }) => {
         const response = await axios.get(
           `${baseURL}/movie/${show_id}?api_key=${API_KEY}&language=en-US`
         );
-        console.log(response);
+        // console.log(response);
         dispatch({
           type: 'GET_SHOWINFO',
           payload: response,

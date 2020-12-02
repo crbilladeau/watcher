@@ -5,6 +5,7 @@ export const NavStyles = styled.div`
   position: fixed;
   top: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   padding: 1rem 2rem;
@@ -14,6 +15,11 @@ export const NavStyles = styled.div`
   h1 {
     color: #fff;
     text-shadow: 4px 2px 0px rgba(93, 0, 211, 1);
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
   }
 `;
 
@@ -25,4 +31,7 @@ export const Logo = styled.img`
 export const Avatar = styled.img`
   width: 32px;
   object-fit: contain;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;

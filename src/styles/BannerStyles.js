@@ -23,7 +23,7 @@ export const Banner = styled.div`
     rgba(93, 0, 211, 0.8) 100%
   );
   padding: 2rem;
-  max-width: 700px;
+  /* max-width: 700px; */
   h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
@@ -43,7 +43,7 @@ export const Banner = styled.div`
     font-weight: 600;
     border-radius: 0.2vw;
     padding: 0 2rem;
-    margin-right: 1rem;
+    margin: 0.5rem;
     padding-top: 0.5em;
     background-color: transparent;
     padding-bottom: 0.5rem;
@@ -57,10 +57,11 @@ export const Banner = styled.div`
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    width: 45rem;
-    height: 80px;
     padding: 1rem 0;
     max-width: 500px;
+  }
+  @media screen and (max-width: 420px) {
+    margin: 0 1rem 2rem 1rem;
   }
 `;
 
