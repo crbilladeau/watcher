@@ -62,7 +62,7 @@ Watcher is a fake movie and TV show streaming app created with **React** and dep
 
 ### In Development
 
-* Adding O.Auth Sign-In
+* ~~Adding O.Auth Sign-In~~ ✅
 * Drop-down search list feature
 * Button to click rather than scroll the show posters
 
