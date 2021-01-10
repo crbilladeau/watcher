@@ -17,6 +17,9 @@ export const PosterRow = styled.div`
   ::-webkit-scrollbar {
     display: none;
   }
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+  }
 
   /* .poster {
     transition: transform 300ms ease 100ms;
@@ -46,11 +49,18 @@ export const PosterStyles = styled.div`
   background-repeat: no-repeat;
   min-width: 250px;
   height: 380px;
+  @media screen and (max-width: 768px) {
+    min-width: 200px;
+    height: 300px;
+  }
 
   -webkit-font-smoothing: antialiased !important;
   div {
     padding: 2.5rem 1rem;
     z-index: 2;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 1rem 0;
   }
   h3 {
     font-family: 'Ubuntu', sans-serif;
