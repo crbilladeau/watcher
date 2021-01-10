@@ -17,6 +17,7 @@ const Row = ({ title, shows }) => {
           plugins={[
             'infinite',
             'arrows',
+            'fastSwipe',
             {
               resolve: slidesToShowPlugin,
               options: {
