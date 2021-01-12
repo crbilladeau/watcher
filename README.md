@@ -8,7 +8,7 @@
   <h2 align="center">Watcher</h3>
 
   <p align="center">
-    A simple mock-up for a streaming service made with ReactJS, React Router, and the TMDB (the Movie Database) API. Deployed to Google Firebase.
+    A streaming service template made with React, React Router, and the TMDB (the Movie Database) API. Deployed to Google Firebase.
     <br />
     <br />
      <img src="https://github.com/crbilladeau/portfolio/blob/master/src/assets/images/watcher.png?raw=true" alt="Watcher Screenshot" width="1000">
@@ -58,7 +58,7 @@
   </div>
 </div>
 
-Watcher is a fake movie and TV show streaming app created with **React** and deployed to **Firebase**. It utilizes data fetched with the **axios** library from **The Movie Database API**. It is fully searchable and navigatable using **React Router** and custom React Hooks. The project also makes use of React Context, storing the state in Global Context and managed by a reducer for top-down state management accessible within any component of the app.
+Watcher is a movie and TV show streaming app template created with **React** and deployed to **Firebase**. It utilizes data fetched with the **axios** library from **The Movie Database API**. It is fully searchable and navigatable using **React Router** and custom React Hooks. The project also makes use of React Context, storing the state in Global Context and managed by a reducer for top-down state management accessible within any component of the app.
 
 ### In Development
 
